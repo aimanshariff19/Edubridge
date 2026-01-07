@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enrollment | EduBridge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Program Enrollment</h2>
+
+<p><strong>Program Selected:</strong> <span id="programName"></span></p>
+
+<form>
+
+    <select name="program" id="programSelect">
+        <option value="Digital Literacy">Digital Literacy</option>
+        <option value="Rural Education Support">Rural Education Support</option>
+        <option value="Girls Education Initiative">Girls Education Initiative</option>
+    </select>
+    <input type="text" placeholder="Your Name" required><br><br>
+    <input type="email" placeholder="Your Email" required><br><br>
+    <button class="btn primary" onclick="confirmEnroll()">Confirm Enrollment</button>
+
+</form>
+
+<br>
+<a href="dashboard.html" class="btn outline">← Back to Dashboard</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
